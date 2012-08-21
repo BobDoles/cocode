@@ -1,0 +1,112 @@
+body
+{
+	background-color: gray;
+	margin: 0;
+	font-family: "Courier New";
+}
+
+header
+{
+	background-color: rgb(24,24,24);
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0.3%;
+	padding: 0.5%;
+
+	font-size: 25px;
+	color: rgb(180,180,180);
+}
+
+nav
+{
+	background-color: rgb(25,25,25);
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	padding-bottom: 1.8%;
+	font-size: 12px;
+	color: rgb(180,180,180);
+}
+
+div.navbutton
+{
+	float: left;
+	left: 2%;
+	background-color: rgb(15,15,15);
+	width: 12%;
+	height: 2%;
+	padding: 0.2%;
+	margin-right: 1%;
+	text-align: center;
+
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(100,100,100);
+
+	-webkit-transition: background-color 0.5s;
+}
+
+div.navbutton:hover
+{
+	background-color: rgb(50,50,50);
+	cursor: pointer;
+	color: rgb(150,150,150);
+	font-size: 1.1em;
+}
+
+
+textarea
+{
+	background-color: rgb(24,24,24);
+	color: rgb(120,120,120);
+	border-radius: 0px 0px 0px 10px;
+	padding: 0.5%;
+	width: 50%;
+	margin-left: 1%;
+	margin-right: 0%;
+	margin-top: 0.5%;
+	height: 88%;
+	border: 1px solid black;
+	max-height: 88%;
+}
+
+textarea.right
+{
+	position: absolute;
+	background-color: rgb(24,24,24);
+	color: rgb(120,120,120);
+	border-radius: 0px 10px 0px 0px;
+	padding: 0.5%;
+	width: 45%;
+	margin-left: .5%;
+	margin-right: 1%;
+	margin-top: 0.5%;
+	height: 88%;
+	border: 1px solid black;
+	max-height: 88%;
+}
+
+textarea:hover, textarea:focus
+{
+	box-shadow: 0px 0px 10px rgb(20,20,20);
+	border: 1px solid black;
+
+	/* FUCK YOU MOZILLA! */
+	outline: none;
+}
+/*
+div.codecanvas
+{
+	margin-left: 1%;
+	margin-right: 50%;
+	margin-top: 1%;
+	height: 80%;
+	padding: 0.8%;
+	border-radius: 10px 0px;
+	background-color: rgb(24,24,24);
+	color: rgb(120,120,120);
+}
+*/
